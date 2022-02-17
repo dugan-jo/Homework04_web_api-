@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Game!</title>
+    <link rel="reset" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="title">JAVASCRIPT QUIZ</h1>
+
+        <section class="btn-container">
+          <button class="startBtn">START</button>
+          <h4 class="welcomeText">
+            Try to answer the following code-related questions within the time
+            limit. Keep in mind that incorrect answers will penalize your
+            score/time by 10 seconds
+          </h4>
+        </section>
+
+        <div id="countDown">TIMER:</div>
+        <div class="questionContainer">
+          <div class="questionText"></div>
+          <button class="btn" id="true" data-field="true">TRUE</button>
+          <button class="btn" id="false" data-field="false">FALSE</button>
+          <h4 class="questionResult"></h4>
+        </div>
+      </div>
+
+
+      
+      <div id="scoresContainer">
+        <h4>HIGH SCORES: </h4>
+        <ul class="counter" id="ulScore">
+        </ul>
+
+      </div>
+
+  
+    </main>
+    <script src="./Assets/js/script.js"></script>
+  </body>
+</html>
